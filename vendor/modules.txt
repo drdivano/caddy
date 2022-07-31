@@ -5,6 +5,9 @@ filippo.io/edwards25519/field
 # github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96
 ## explicit
 github.com/AndreasBriese/bbloom
+# github.com/Azure/go-ntlmssp v0.0.0-20200615164410-66371956d46c
+## explicit
+github.com/Azure/go-ntlmssp
 # github.com/BurntSushi/toml v1.0.0
 ## explicit; go 1.16
 github.com/BurntSushi/toml
@@ -57,6 +60,9 @@ github.com/antlr/antlr4/runtime/Go/antlr
 # github.com/aryann/difflib v0.0.0-20210328193216-ff5ff6dc229b
 ## explicit
 github.com/aryann/difflib
+# github.com/beevik/etree v1.1.0
+## explicit
+github.com/beevik/etree
 # github.com/beorn7/perks v1.0.1
 ## explicit; go 1.11
 github.com/beorn7/perks/quantile
@@ -84,6 +90,15 @@ github.com/chzyer/readline
 # github.com/cpuguy83/go-md2man/v2 v2.0.0
 ## explicit; go 1.12
 github.com/cpuguy83/go-md2man/v2/md2man
+# github.com/crewjam/httperr v0.2.0
+## explicit; go 1.13
+github.com/crewjam/httperr
+# github.com/crewjam/saml v0.4.6
+## explicit; go 1.13
+github.com/crewjam/saml
+github.com/crewjam/saml/logger
+github.com/crewjam/saml/samlsp
+github.com/crewjam/saml/xmlenc
 # github.com/dgraph-io/badger v1.6.2
 ## explicit; go 1.12
 github.com/dgraph-io/badger
@@ -116,12 +131,21 @@ github.com/dlclark/regexp2/syntax
 # github.com/dustin/go-humanize v1.0.1-0.20200219035652-afde56e7acac
 ## explicit
 github.com/dustin/go-humanize
+# github.com/emersion/go-sasl v0.0.0-20211008083017-0b9dcfb154ac
+## explicit; go 1.12
+github.com/emersion/go-sasl
+# github.com/emersion/go-smtp v0.15.0
+## explicit; go 1.13
+github.com/emersion/go-smtp
 # github.com/felixge/httpsnoop v1.0.2
 ## explicit; go 1.13
 github.com/felixge/httpsnoop
 # github.com/fsnotify/fsnotify v1.5.1
 ## explicit; go 1.13
 github.com/fsnotify/fsnotify
+# github.com/go-asn1-ber/asn1-ber v1.5.1
+## explicit; go 1.13
+github.com/go-asn1-ber/asn1-ber
 # github.com/go-chi/chi v4.1.2+incompatible
 ## explicit
 github.com/go-chi/chi
@@ -129,6 +153,9 @@ github.com/go-chi/chi
 ## explicit; go 1.13
 github.com/go-kit/kit/log
 github.com/go-kit/kit/log/level
+# github.com/go-ldap/ldap/v3 v3.4.1
+## explicit; go 1.13
+github.com/go-ldap/ldap/v3
 # github.com/go-logfmt/logfmt v0.5.0
 ## explicit; go 1.13
 github.com/go-logfmt/logfmt
@@ -145,6 +172,9 @@ github.com/go-sql-driver/mysql
 # github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0
 ## explicit; go 1.13
 github.com/go-task/slim-sprig
+# github.com/golang-jwt/jwt/v4 v4.2.0
+## explicit; go 1.15
+github.com/golang-jwt/jwt/v4
 # github.com/golang/protobuf v1.5.2
 ## explicit; go 1.9
 github.com/golang/protobuf/descriptor
@@ -181,6 +211,59 @@ github.com/google/cel-go/parser/gen
 # github.com/google/uuid v1.3.0
 ## explicit
 github.com/google/uuid
+# github.com/greenpau/caddy-security v1.1.14
+## explicit; go 1.17
+github.com/greenpau/caddy-security
+github.com/greenpau/caddy-security/pkg/util
+# github.com/greenpau/go-authcrunch v1.0.35
+## explicit; go 1.17
+github.com/greenpau/go-authcrunch
+github.com/greenpau/go-authcrunch/internal/utils
+github.com/greenpau/go-authcrunch/pkg/acl
+github.com/greenpau/go-authcrunch/pkg/authn
+github.com/greenpau/go-authcrunch/pkg/authn/cache
+github.com/greenpau/go-authcrunch/pkg/authn/cookie
+github.com/greenpau/go-authcrunch/pkg/authn/enums/operator
+github.com/greenpau/go-authcrunch/pkg/authn/icons
+github.com/greenpau/go-authcrunch/pkg/authn/transformer
+github.com/greenpau/go-authcrunch/pkg/authn/ui
+github.com/greenpau/go-authcrunch/pkg/authn/validators
+github.com/greenpau/go-authcrunch/pkg/authproxy
+github.com/greenpau/go-authcrunch/pkg/authz
+github.com/greenpau/go-authcrunch/pkg/authz/bypass
+github.com/greenpau/go-authcrunch/pkg/authz/cache
+github.com/greenpau/go-authcrunch/pkg/authz/handlers
+github.com/greenpau/go-authcrunch/pkg/authz/injector
+github.com/greenpau/go-authcrunch/pkg/authz/options
+github.com/greenpau/go-authcrunch/pkg/authz/validator
+github.com/greenpau/go-authcrunch/pkg/credentials
+github.com/greenpau/go-authcrunch/pkg/errors
+github.com/greenpau/go-authcrunch/pkg/identity
+github.com/greenpau/go-authcrunch/pkg/identity/qr
+github.com/greenpau/go-authcrunch/pkg/idp
+github.com/greenpau/go-authcrunch/pkg/idp/oauth
+github.com/greenpau/go-authcrunch/pkg/idp/saml
+github.com/greenpau/go-authcrunch/pkg/ids
+github.com/greenpau/go-authcrunch/pkg/ids/ldap
+github.com/greenpau/go-authcrunch/pkg/ids/local
+github.com/greenpau/go-authcrunch/pkg/kms
+github.com/greenpau/go-authcrunch/pkg/messaging
+github.com/greenpau/go-authcrunch/pkg/registry
+github.com/greenpau/go-authcrunch/pkg/requests
+github.com/greenpau/go-authcrunch/pkg/shared
+github.com/greenpau/go-authcrunch/pkg/user
+github.com/greenpau/go-authcrunch/pkg/util
+github.com/greenpau/go-authcrunch/pkg/util/addr
+github.com/greenpau/go-authcrunch/pkg/util/cfg
+github.com/greenpau/go-authcrunch/pkg/util/charset
+github.com/greenpau/go-authcrunch/pkg/util/data
+github.com/greenpau/go-authcrunch/pkg/util/file
+github.com/greenpau/go-authcrunch/pkg/util/log
+github.com/greenpau/go-authcrunch/pkg/util/validate
+github.com/greenpau/go-authcrunch/pkg/waf
+# github.com/greenpau/versioned v1.0.27
+## explicit; go 1.14
+github.com/greenpau/versioned
 # github.com/grpc-ecosystem/grpc-gateway v1.16.0
 ## explicit; go 1.14
 github.com/grpc-ecosystem/grpc-gateway/internal
@@ -220,6 +303,9 @@ github.com/jackc/pgtype
 github.com/jackc/pgx/v4
 github.com/jackc/pgx/v4/internal/sanitize
 github.com/jackc/pgx/v4/stdlib
+# github.com/jonboulle/clockwork v0.2.2
+## explicit; go 1.13
+github.com/jonboulle/clockwork
 # github.com/klauspost/compress v1.15.0
 ## explicit; go 1.15
 github.com/klauspost/compress
@@ -269,6 +355,9 @@ github.com/marten-seemann/qtls-go1-17
 # github.com/marten-seemann/qtls-go1-18 v0.1.1
 ## explicit; go 1.18
 github.com/marten-seemann/qtls-go1-18
+# github.com/mattermost/xml-roundtrip-validator v0.1.0
+## explicit; go 1.14
+github.com/mattermost/xml-roundtrip-validator
 # github.com/mattn/go-colorable v0.1.8
 ## explicit; go 1.13
 github.com/mattn/go-colorable
@@ -362,6 +451,11 @@ github.com/prometheus/procfs/internal/util
 # github.com/rs/xid v1.2.1
 ## explicit
 github.com/rs/xid
+# github.com/russellhaering/goxmldsig v1.1.1
+## explicit; go 1.15
+github.com/russellhaering/goxmldsig
+github.com/russellhaering/goxmldsig/etreeutils
+github.com/russellhaering/goxmldsig/types
 # github.com/russross/blackfriday/v2 v2.0.1
 ## explicit
 github.com/russross/blackfriday/v2
@@ -374,6 +468,11 @@ github.com/shurcooL/sanitized_anchor_name
 # github.com/sirupsen/logrus v1.8.1
 ## explicit; go 1.13
 github.com/sirupsen/logrus
+# github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
+## explicit; go 1.13
+github.com/skip2/go-qrcode
+github.com/skip2/go-qrcode/bitset
+github.com/skip2/go-qrcode/reedsolomon
 # github.com/slackhq/nebula v1.5.2
 ## explicit; go 1.17
 github.com/slackhq/nebula/cert
@@ -554,6 +653,7 @@ go.uber.org/zap/zapcore
 ## explicit; go 1.17
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blowfish
+golang.org/x/crypto/cast5
 golang.org/x/crypto/chacha20
 golang.org/x/crypto/chacha20poly1305
 golang.org/x/crypto/cryptobyte
@@ -564,9 +664,17 @@ golang.org/x/crypto/ed25519
 golang.org/x/crypto/hkdf
 golang.org/x/crypto/internal/poly1305
 golang.org/x/crypto/internal/subtle
+golang.org/x/crypto/md4
 golang.org/x/crypto/nacl/secretbox
 golang.org/x/crypto/ocsp
+golang.org/x/crypto/openpgp
+golang.org/x/crypto/openpgp/armor
+golang.org/x/crypto/openpgp/elgamal
+golang.org/x/crypto/openpgp/errors
+golang.org/x/crypto/openpgp/packet
+golang.org/x/crypto/openpgp/s2k
 golang.org/x/crypto/pbkdf2
+golang.org/x/crypto/ripemd160
 golang.org/x/crypto/salsa20/salsa
 golang.org/x/crypto/scrypt
 golang.org/x/crypto/ssh

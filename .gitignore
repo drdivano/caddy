@@ -16,7 +16,6 @@ cmd/caddy/caddy.exe
 .DS_Store
 
 # go modules
-vendor
 
 # goreleaser artifacts
 dist
