@@ -1,4 +1,4 @@
-// Copyright 2015 Matthew Holt and The Caddy Authors
+// Copyright 2022 Paul Greenberg greenpau@outlook.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,20 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package main is the entry point of the Caddy application.
-// Most of Caddy's functionality is provided through modules,
-// which can be plugged in by adding their import below.
-//
-// There is no need to modify the Caddy source code to customize your
-// builds. You can easily build a custom Caddy with these simple steps:
-//
-//   1. Copy this file (main.go) into a new folder
-//   2. Edit the imports below to include the modules you want plugged in
-//   3. Run `go mod init caddy`
-//   4. Run `go install` or `go build` - you now have a custom binary!
-//
-// Or you can use xcaddy which does it all for you as a command:
-// https://github.com/caddyserver/xcaddy
 package main
 
 import (
@@ -34,6 +20,7 @@ import (
 	// plug in Caddy modules here
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
 	_ "github.com/greenpau/caddy-security"
+	_ "github.com/greenpau/caddy-trace"
 )
 
 func main() {
