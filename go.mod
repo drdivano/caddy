@@ -2,6 +2,9 @@ module github.com/caddyserver/caddy/v2
 
 go 1.18
 
+// see https://github.com/crewjam/saml/issues/461
+replace github.com/crewjam/saml v0.4.8 => github.com/marcidelux/saml v0.4.10
+
 require (
 	github.com/BurntSushi/toml v1.2.0
 	github.com/Masterminds/sprig/v3 v3.2.2
