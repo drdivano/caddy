@@ -12,11 +12,13 @@ require (
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/google/cel-go v0.12.5
 	github.com/google/uuid v1.3.0
+	github.com/greenpau/caddy-security v1.1.17
 	github.com/klauspost/compress v1.15.11
 	github.com/klauspost/cpuid/v2 v2.1.1
 	github.com/lucas-clemente/quic-go v0.29.2
 	github.com/mholt/acmez v1.0.4
 	github.com/prometheus/client_golang v1.12.2
+	github.com/sagikazarmark/caddy-fs-s3 v0.1.1
 	github.com/smallstep/certificates v0.22.1
 	github.com/smallstep/cli v0.22.0
 	github.com/smallstep/nosql v0.4.0
@@ -30,17 +32,35 @@ require (
 	go.opentelemetry.io/otel v1.9.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.4.0
 	go.opentelemetry.io/otel/sdk v1.4.0
-	go.uber.org/zap v1.23.0
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
-	golang.org/x/net v0.0.0-20220812165438-1d4ff48094d1
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
+	go.uber.org/zap v1.24.0
+	golang.org/x/crypto v0.4.0
+	golang.org/x/net v0.4.0
+	golang.org/x/term v0.3.0
 	google.golang.org/genproto v0.0.0-20220617124728-180714bec0ad
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
+	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358 // indirect
+	github.com/aws/aws-sdk-go v1.44.37 // indirect
+	github.com/beevik/etree v1.1.0 // indirect
+	github.com/crewjam/httperr v0.2.0 // indirect
+	github.com/crewjam/saml v0.4.10 // indirect
+	github.com/emersion/go-sasl v0.0.0-20220912192320-0145f2c60ead // indirect
+	github.com/emersion/go-smtp v0.15.0 // indirect
+	github.com/go-asn1-ber/asn1-ber v1.5.4 // indirect
+	github.com/go-ldap/ldap/v3 v3.4.4 // indirect
+	github.com/golang-jwt/jwt/v4 v4.4.3 // indirect
 	github.com/golang/mock v1.6.0 // indirect
+	github.com/greenpau/go-authcrunch v1.0.38 // indirect
+	github.com/greenpau/versioned v1.0.27 // indirect
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/jonboulle/clockwork v0.3.0 // indirect
+	github.com/jszwec/s3fs v0.4.0 // indirect
+	github.com/mattermost/xml-roundtrip-validator v0.1.0 // indirect
+	github.com/russellhaering/goxmldsig v1.2.0 // indirect
+	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e // indirect
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
@@ -123,12 +143,12 @@ require (
 	go.step.sm/cli-utils v0.7.4 // indirect
 	go.step.sm/crypto v0.18.0 // indirect
 	go.step.sm/linkedca v0.18.0 // indirect
-	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3 // indirect
-	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10
-	golang.org/x/text v0.3.8-0.20211004125949-5bd84dd9b33b // indirect
-	golang.org/x/tools v0.1.10 // indirect
+	go.uber.org/atomic v1.10.0 // indirect
+	go.uber.org/multierr v1.9.0 // indirect
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
+	golang.org/x/sys v0.3.0
+	golang.org/x/text v0.5.0 // indirect
+	golang.org/x/tools v0.1.12 // indirect
 	golang.org/x/xerrors v0.0.0-20220609144429-65e65417b02f // indirect
 	google.golang.org/grpc v1.47.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
